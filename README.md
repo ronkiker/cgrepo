@@ -5,7 +5,7 @@ Go to this [repo](https://github.com/forcedotcom/postman-salesforce-apis) and [d
     * `_accessToken` from `sessionId` in response
     * `_endpoint` from `serverUrl` in response (domain only)
 
-   Once ou have you have done this, perform the `Versions` API call under the `REST` folder. After you get the response back, create a new branch and create a file called `versions.json` and paste the result into that file
+   Once you have done this, perform the `Versions` API call under the `REST` folder. After you get the response back, create a new branch and create a file called `versions.json` and paste the result into that file
 
 2. **Calculator**<br/>
    In whatever language you feel most comfortable with, write a small class that implements the following methods (On the same branch you created above, create the file that has this code):
@@ -15,3 +15,4 @@ Go to this [repo](https://github.com/forcedotcom/postman-salesforce-apis) and [d
    * `Integer multiply(Integer,Integer)
    * `String divide(Integer,Integer)
       * Example form of answer for 5/3 -> `1 R2`
+   
